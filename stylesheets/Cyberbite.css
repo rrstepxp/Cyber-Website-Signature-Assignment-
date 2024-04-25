@@ -1,6 +1,6 @@
 /* Body styles */
 body {
-  background-image: url(../images/darkernetbg\ 2.jpeg);
+  background-image: url(../images/darkernetbg\ 2.jpeg); /* Free Image from Canva.com */ /* No attribution required. Images used for demonstration purposes only. */
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Roboto Mono', monospace;
@@ -8,7 +8,6 @@ body {
   margin: 0px;
   margin-top: 0; /* Add this line to set the top margin of the body to 0 */
 }
-
 
 /* Main styles */
 
@@ -30,36 +29,35 @@ h2{
 
 }
 
-
-  /* Full-width image styles */
+/* Full-width image styles */
   
   .full-width {
     width: 100%;
     height: auto;
   }
   
-  /* Definition term styles */
+/* Definition term styles */
   
   dt {
     font-weight: bold;
   }
   
-  /* HEADER SECTION */
+/* HEADER SECTION */
 
 
 /* Header background and image styles */
+
 header {
   background-position: right top;
   background-repeat: no-repeat;
   min-height: 200px;
   margin-top: 0; /* Add this line to set the top margin of the header to 0 */
-  background-image: url(../images/Lock-dynamic-premiumSM2.png);
-  
+  background-image: url(../images/Lock-dynamic-premiumSM2.png); /* Background image: "3-D lock premium dynamic icon" by Vijay Verma Source: https://3dicons.co/ License: Creative Commons CC0 1.0 Universal Public Domain Dedication */
 
 }
 
 
-  /* Contact header section */
+/* Contact header section */
   
   #formheader {
     text-align: center;
@@ -67,7 +65,7 @@ header {
   }
   
   
-  /* Page Title */
+/* Page Title */
 
   #pagetitle {
     font-family: 'Roboto Mono', monospace;
@@ -81,7 +79,7 @@ header {
 }
 
 
-  /* So the home page image stays responsive */
+ /* So the home page image stays responsive */
   
   .responsive { 
     width: 100%;
@@ -89,7 +87,7 @@ header {
   }
 
   
-  /* Code for the Flexbox */
+/* Code for the Flexbox */
   
   .array-of-images {
     display: flex;
@@ -97,15 +95,15 @@ header {
     justify-content: center; 
   }
   
-  /* CSS to remove underlines from anchor elements */
+/* CSS to remove underlines from anchor elements */
   
   a {
     text-decoration: none; 
   }
   
-  /* NAVIGATION SECTION */
+/* NAVIGATION SECTION */
   
-  /* Navigation styles for Large Screens */
+/* Navigation styles for Large Screens */
   
   @media screen and (min-width: 599px) {
   
@@ -164,7 +162,7 @@ header {
   
   }
   
-  /* Navigation colors. The website https://colors-picker.com/hex-color-picker/ helped me. */
+ /* Navigation colors. The website https://colors-picker.com/hex-color-picker/ helped me. */
   
   nav a {
     color: rgb(0, 0, 0); 
@@ -181,9 +179,9 @@ header {
   }
   
   
-  /* CLASSES SECTION */
+/* CLASSES SECTION */
   
-  /* Center the titles in the aside, activitises, and prizes for Classes Section */
+/* Center the titles in the aside, activitises, and prizes for Classes Section */
   
   .byteshield h2,
   .bytearmor h2,
@@ -191,7 +189,7 @@ header {
     text-align: center;
   }
   
-  /* Positions the Classes Section */
+/* Positions the Classes Section */
   
     .byteshield,
     .oursquad {
@@ -200,7 +198,7 @@ header {
   
     }
   
-  /* Controls the image for Classes Section */
+/* Controls the image for Classes Section */
    
   @media screen and (min-width: 599px) {
   .responsive2 {
@@ -211,11 +209,11 @@ header {
    }
   }
   
-  /* These are the background colors for the Classes page. */
+/* These are the background colors for the Classes page. */
   
   .byteshield {
     background-color: #010316;
-    background-image: url(../images/cybercity\ copy\ 2.png);
+    background-image: url(../images/cybercity\ copy\ 2.png); /* Free Image from Canva.com */ /* No attribution required. Images used for demonstration purposes only. */
     border-radius: 10px;
     border: 2px solid #6dffa7;
     padding: 20px;
@@ -225,7 +223,7 @@ header {
   
   .bytearmor {
     background-color: #010316;
-    background-image: url(../images/cybercity.png);
+    background-image: url(../images/cybercity.png); /* Free Image from Canva.com */ /* No attribution required. Images used for demonstration purposes only. */
     border-radius: 10px;
     border: 2px solid #6dffa7;
     padding: 20px;
@@ -235,7 +233,7 @@ header {
   
   .cyberpulse {
     background-color: #010316;
-    background-image: url(../images/cybercity\ copy.png);
+    background-image: url(../images/cybercity\ copy.png); /* Free Image from Canva.com */ /* No attribution required. Images used for demonstration purposes only. */
     border-radius: 10px;
     border: 2px solid #6dffa7;
     padding: 20px;
@@ -257,7 +255,7 @@ header {
   
   /* OUR SQUAD SECTION */
   
-  /* This is the Our Team page. This is where the images of the team members, size and captions are maintained. */
+  /* This is the Our Squad page. This is where the images of the team members, size and captions are maintained. */
 
   
   .oursquad {
@@ -341,9 +339,9 @@ header {
    padding: 20px;
   }
   
-  /* OUR GRADUATES SECTION */
+  /* OUR CYBER NEWS SECTION */
   
-  /* Dog Graduates GRID section. */
+  /* CYBER NEWS GRID section. */
   
     .grid-container {
       display: grid;
@@ -467,7 +465,7 @@ header {
       justify-content: space-around;
     }
   
-  /* Makes font smaller so the "Our Team" is next to each other. */
+  /* Makes font smaller so the "Our Squad" is next to each other. */
   
     .navcontainer {
       font-size: 12px;
@@ -496,7 +494,6 @@ header {
 }
 }
   
-  
   /* Our Squad width */
   
   .oursquad {
@@ -521,7 +518,7 @@ header {
   
   }
   
-  /* Classes section for Small Screens */
+  /* Packages section for Small Screens */
   
   @media screen and (max-width: 599px) {
   .byteshield left {
