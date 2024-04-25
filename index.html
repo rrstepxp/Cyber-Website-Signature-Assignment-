@@ -3,31 +3,64 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheets/Chateau.css">
-    <title>Chateau Chien</title>
+    <link rel="stylesheet" href="stylesheets/Cyberbite.css">
+    <title>CyberBite Consulting</title>
 </head>
+
+
 <body onload="welcomeMessage()"> <!-- Call welcomeMessage() function when the page loads -->
 
-    <header>
-        <h1 id="pagetitle" class="mainheader">Chateau Chien</h1>
-    </header>
+
+<header>
+    <h1 id="pagetitle" class="mainheader">CyberBite Consulting</h1>
+</header>
+
     
     <nav class="navcontainer">
-        
+        <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;
+        <a href="page2.html">Classes</a> &nbsp;&nbsp;&nbsp;
+        <a href="page3.html">Our Team</a> &nbsp;&nbsp;&nbsp;
+        <a href="page4.html">Contact</a> &nbsp;&nbsp;&nbsp;
+        <a href="page5.html">Our Graduates</a>&nbsp;&nbsp;&nbsp;
+        <a href="page6.html">Testimonies</a>&nbsp;&nbsp;&nbsp;
     </nav> 
 
     <main>
+
+    <section class="homepagebox">
+        <!-- Video source: [Swimming Goldren Retriever](https://www.pexels.com/video/swimming-golden-retriever-1123272/), licensed under CC0 (Creative Commons Zero) -->
+        <!-- No attribution required. Video used for demonstration purposes only. -->
+
+        <video width="100%" height="400" controls autoplay loop muted>
+            <source src="media/hacker.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+        </video>
+
+
+        <h2>Good Doggie!</h2>
+        <p><span class="bigitalics">Chateau Chien</span> welcomes all of our furry friends to bring your person and train them to keep you happy. Whether you are just a pup getting to know your new family, a young dog learning your first tricks, or a more mature dog who needs an etiquette refresher, we have a class for you.</p>
+        <p>Our trainers offer group classes where syou can make some new friends and watch them train their people while you train yours. We also have private sessions if you are a bit shy or need something special.</p>
+        <h4><span class="bigitalics">Chateau Chien</span></h4> 
+        <p>612 Fido Trail<br>Laika, CA 96162</p>
+        <p>888-555-5555</p>
+
+    </section>
+
+
+
     
-
-
     </main>
 
+
+
+
     <footer>
-       
+        Copyright &copy; 2023 <span class="bigitalics">Chateau Chien</span><br>
+        <a href="mailto:roshane@stephenson.com">Send email</a>
     </footer>
 
     <!-- Script tag to include your JavaScript file -->
-   
+    <script src="scripts/alert.js"></script>
 
 </body>
 </html>
