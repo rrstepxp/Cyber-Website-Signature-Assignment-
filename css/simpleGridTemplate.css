@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: 'Roboto Mono', monospace;
 	background-image: url("../images/bitebackground.png")
 }
 
