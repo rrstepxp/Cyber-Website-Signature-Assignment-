@@ -2,5 +2,5 @@
 
 // Define the function
 function welcomeMessage() {
-    alert("Welcome to the puppy paradise!");
+    alert("Have you been hacked?!");
 }

@@ -18,6 +18,10 @@ main {
   
 }
 
+h2{
+  text-align: center;
+}
+
 .homepagebox {
   background-color: #010316;
   border-radius: 10px;
@@ -181,16 +185,16 @@ header {
   
   /* Center the titles in the aside, activitises, and prizes for Classes Section */
   
-  .asideforclasses h2,
-  .activities h2,
-  .prizes h2 {
+  .byteshield h2,
+  .bytearmor h2,
+  .cyberpulse h2 {
     text-align: center;
   }
   
   /* Positions the Classes Section */
   
-    .asideforclasses,
-    .ouremployees {
+    .byteshield,
+    .oursquad {
       float: right; 
       width: calc(100% - 250px); 
   
@@ -209,7 +213,7 @@ header {
   
   /* These are the background colors for the Classes page. */
   
-  .asideforclasses {
+  .byteshield {
     background-color: #010316;
     background-image: url(../images/cybercity\ copy\ 2.png);
     border-radius: 10px;
@@ -219,7 +223,7 @@ header {
     
   }
   
-  .activities {
+  .bytearmor {
     background-color: #010316;
     background-image: url(../images/cybercity.png);
     border-radius: 10px;
@@ -229,7 +233,7 @@ header {
   
   }
   
-  .prizes {
+  .cyberpulse {
     background-color: #010316;
     background-image: url(../images/cybercity\ copy.png);
     border-radius: 10px;
@@ -244,18 +248,19 @@ header {
     display: flex;
   }
   
-  .asideforclasses, .activities, .prizes {
+  .byteshield, .bytearmor, .cyberpulse {
     width: 34%;
     padding: 10px;
     box-sizing: border-box;
     margin: 5px;
   }
   
-  /* OUR TEAM SECTION */
+  /* OUR SQUAD SECTION */
   
   /* This is the Our Team page. This is where the images of the team members, size and captions are maintained. */
+
   
-  .ouremployees {
+  .oursquad {
     font-weight:bold;
     color:#ffffff;
     border-radius: 10px;
@@ -265,11 +270,12 @@ header {
  
   }
   
-  .ouremployees h2 {
+  .oursquad h2 {
     margin-top: 20px;
+    text-align: center;
   }
   
-  .ouremployees ol {
+  .oursquad ol {
     margin: 0; 
     padding: 0; 
     list-style-type: none; 
@@ -279,7 +285,7 @@ header {
   
   /* Add space between list items */
   
-  .ouremployees ol li {
+  .oursquad ol li {
     margin-bottom: 10px; 
   }
   
@@ -355,48 +361,48 @@ header {
       height: auto; /* Maintain aspect ratio */
   }
   
-    .GradTitle {
+    .NewsTitle {
       text-align: center;
       color: #FFFFFF;
     }
   
-    .imgWideOwner {
+    .imgWideHacker {
       grid-area: 2 / 1 / 3 / span 2;
     }
   
-    .imgJRhat {
+    .imgLongDisk {
       grid-area: 2 / 3 / 3 / 3;
     }
   
-    .imgTwoDhat {
+    .imgLongMask {
       grid-area: 2 / 4 / 4 / 4;
     }
   
-    .imgLongDipdog {
+    .imgLongHacking4 {
       grid-area: 3 / 3 / 3 / 3;
     }
   
-    .imgReadlong {
+    .imgLongHacking6 {
       grid-area: 3 / 4 / 4 / 4;
     }
   
-    .imgCatdogs {
+    .imgHackerPlus2 {
       grid-area: 3 / 1 / 3 / span 2;
     }
   
-    .imgHusky {
+    .imgHacking1 {
       grid-area: 4 / 1 / 4 / 2;
     }
   
-    .imgPomer {
+    .imgHackerPlus3 {
       grid-area: 4 / 2 / 4 / 2;
     }
   
-    .imgBeagle {
+    .imgHacking3 {
       grid-area: 4 / 3 / 4 / 4;
     }
   
-    .imgWTdog {
+    .imgHacking5 {
       grid-area: 4 / 4 / 4 / 4;
     }
   
@@ -470,7 +476,7 @@ header {
   
   /* Our employees width */
   
-  .ouremployees {
+  .oursquad {
     width: 100%;
     
   }
@@ -495,7 +501,7 @@ header {
   /* Classes section for Small Screens */
   
   @media screen and (max-width: 599px) {
-  .asideforclasses left {
+  .byteshield left {
     border-radius: 10px;
     border: 2px solid #000000;
     padding: 10px;
@@ -510,7 +516,7 @@ header {
         flex-direction: column; 
     }
   
-    .asideforclasses, .activities, .prizes {
+    .byteshield, .bytearmor, .cyberpulse {
         width: auto; 
     }
   }
@@ -530,53 +536,53 @@ header {
       height: auto; /* Maintain aspect ratio */
   }
   
-  .GradTitle {
+  .NewsTitle {
       grid-area: 1 / 1 / span 1 / span 2; /* Adjust grid area to span two columns */
   }
   
-  .imgWideOwner {
+  .imgWideHacker {
       grid-area: 2 / 1 / 3 / span 2; 
   }
   
-  .imgTwoDhat {
+  .imgLongMask {
     grid-area: 3 / 1 / 3 / span 1; 
   }
   
-  .imgJRhat {
+  .imgLongDisk {
       grid-area: 3 / 2 / 3 / span 1; 
   }
   
-  .imgLongDipdog {
+  .imgLongHacking4 {
       grid-area: 5 / 1 / 6 / span 1; 
   }
   
-  .imgReadlong {
+  .imgLongHacking6 {
       grid-area: 5 / 2 / 6 / span 1;
   }
   
-  .imgHusky {
+  .imgHacking1 {
       grid-area: 7 / 1 / 8 / span 1; 
   }
   
-  .imgBeagle {
+  .imgHacking3 {
     grid-area: 7 / 2 / 8 / span 1; 
   }
   
-  .imgPomer {
+  .imgHackerPlus3 {
       grid-area: 9 / 1 / 10 / span 1; 
   }
   
-  .imgWTdog {
+  .imgHacking5 {
       grid-area: 9 / 2 / 10 / span 1;
   }
   
-  .imgCatdogs {
+  .imgHackerPlus2 {
     grid-area: 10 / 1  /11 / span 2; 
   }
   
   }
   
-  /* Our Team headshots for Small Screens */
+  /* Our Squads headshots for Small Screens */
   
   @media screen and (max-width: 599px) {
     .headshots figure {
