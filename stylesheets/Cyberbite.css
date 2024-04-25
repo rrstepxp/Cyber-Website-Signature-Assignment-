@@ -472,9 +472,32 @@ header {
     .navcontainer {
       font-size: 12px;
     }
+
+   /* SPONSERS SECTION */
+  
+  /* So the sponsers are center. */
+
+  @media screen and (max-width: 599px) {
+  
+  .oursponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: #ffffff;
+   border-radius: 10px;
+   border: 2px solid #000000;
+   padding: 20px;
+  }
+
+  .oursponsors img {
+    max-width: 50px; /* Adjust the maximum width as needed */
+    max-height: 50px; /* Adjust the maximum height as needed */
+    margin: 5px; /* Add margin to space out the images */
+}
+}
   
   
-  /* Our employees width */
+  /* Our Squad width */
   
   .oursquad {
     width: 100%;
