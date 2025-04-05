@@ -1,4 +1,4 @@
-This is my final project for a Web Development course — a static cybersecurity consulting website designed to simulate a professional services firm.
+This is my final project for a Web Development course, a static cybersecurity consulting website designed to simulate a professional services firm.
 
 🛠 Built With: HTML5, CSS, and JavaScript
 
