@@ -337,11 +337,11 @@ header {
   border-radius: 10px;
   border: 2px solid #000000;
   padding: 20px;
-  gap: 40px; /* Stronger spacing between logos */
+  gap: 40px; /* Consistent spacing across all screen sizes */
 }
 
 .oursponsors img {
-  max-height: 45px;     /* Perfectly trimmed down */
+  max-height: 45px;
   width: auto;
   object-fit: contain;
   display: block;
@@ -482,29 +482,6 @@ header {
     }
 
    /* SPONSERS SECTION */
-  
-  /* So the sponsers are center. */
-
-@media screen and (max-width: 599px) {
-
-.oursponsors {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-  border-radius: 10px;
-  border: 2px solid #000000;
-  padding: 20px;
-  gap: 15px;
-}
-
-.oursponsors img {
-  max-width: 70px;    /* ✅ consistent size across all screen sizes */
-  height: auto;
-  object-fit: contain;
-  transition: transform 0.2s ease-in-out;
-}
 
 /* Optional hover effect */
 .oursponsors img:hover {
