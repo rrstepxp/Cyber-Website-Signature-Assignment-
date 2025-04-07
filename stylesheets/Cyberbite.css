@@ -328,24 +328,26 @@ header {
   /* SPONSERS SECTION */
   
   /* So the sponsers are center. */
-  
-  .oursponsors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    background-color: #ffffff;
-   border-radius: 10px;
-   border: 2px solid #000000;
-   padding: 20px;
-  }
+
+.oursponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  padding: 20px;
+  gap: 40px; /* Stronger spacing between logos */
+}
 
 .oursponsors img {
-  max-height: 50px;       /* 👈 Slightly smaller */
+  max-height: 45px;     /* Perfectly trimmed down */
   width: auto;
   object-fit: contain;
   display: block;
-  margin: 0 12px;          /* 👈 Adds horizontal spacing between logos */
 }
+
 
 
   /* OUR CYBER NEWS SECTION */
