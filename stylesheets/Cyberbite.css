@@ -604,20 +604,23 @@ header {
   
   /* Our Squads headshots for Small Screens */
   
-  @media screen and (max-width: 599px) {
-    .headshots figure {
-      width: 80px;
-    }
+@media screen and (max-width: 599px) {
+  .headshots figure {
+    width: 100px; /* slightly wider to help names wrap better */
+    margin-right: 15px;
   }
-  
-  @media screen and (max-width: 599px) {
-    .headshots figcaption {
-        font-weight: bold;
-        font-size: 11px;
-        margin-top: 5px;
-        color: #60f1b4;
-    }
+
+  .headshots figcaption {
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 5px;
+    color: #60f1b4;
+    white-space: normal;  /* allow wrapping */
+    word-wrap: break-word;
+    line-height: 1.2;      /* tighter spacing between lines */
   }
+}
+
 
   /* Footer text color for small screens */
 @media screen and (max-width: 599px) {
