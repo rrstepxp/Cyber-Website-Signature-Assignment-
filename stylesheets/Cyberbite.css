@@ -338,6 +338,15 @@ header {
    border: 2px solid #000000;
    padding: 20px;
   }
+
+.oursponsors img {
+  height: 60px;            /* ✅ All logos same height */
+  width: auto;             /* Keeps proportions */
+  object-fit: contain;
+  max-width: 100%;         /* Prevents overflow */
+  display: block;
+}
+
   
   /* OUR CYBER NEWS SECTION */
   
