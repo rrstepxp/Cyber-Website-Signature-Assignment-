@@ -475,31 +475,29 @@ header {
   
   /* So the sponsers are center. */
 
-  @media screen and (max-width: 599px) {
-  
+@media screen and (max-width: 599px) {
+
   .oursponsors {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
     background-color: #ffffff;
-   border-radius: 10px;
-   border: 2px solid #000000;
-   padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 20px;
   }
 
   .oursponsors img {
-    max-width: 50px; /* Adjust the maximum width as needed */
-    max-height: 50px; /* Adjust the maximum height as needed */
-    margin: 5px; /* Add margin to space out the images */
-}
-}
-  
-  /* Our Squad width */
-  
+    max-width: 50px;
+    max-height: 50px;
+    margin: 5px;
+  }
+
   .oursquad {
     width: 100%;
-    
   }
+}
+
   
   /* Small Screen Form Section */
   
